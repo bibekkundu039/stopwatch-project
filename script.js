@@ -1,7 +1,7 @@
 // All Buttons
 const startBtn = document.getElementById('startBtn');
 const stopBtn = document.getElementById('stopBtn');
-const restartBtn = document.getElementById('restartBtn');
+const resetBtn = document.getElementById('resetBtn');
 
 // All Timer Fields
 const hourTimer = document.getElementById('hour');
@@ -32,7 +32,7 @@ stopBtn.addEventListener("click", () =>{
 });
 
 // reset button click
-restartBtn.addEventListener('click', () =>{
+resetBtn.addEventListener('click', () =>{
     clearInterval(timer);
     hour = 0;
     minitue = 0;
@@ -44,7 +44,7 @@ restartBtn.addEventListener('click', () =>{
     secondsTimer.textContent = "00";
     milisecTimer.textContent = "000";
 
-    timer = setInterval(startStopwatch, 10);
+    // timer = setInterval(startStopwatch, 10);
 });
 
 // Start button function
