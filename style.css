@@ -1,0 +1,41 @@
+body{
+    margin:0;
+    background-color: purple;
+}
+
+.stopwatch{
+    margin: 50px 200px;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 20px;
+}
+
+.title{
+    margin-bottom: 50px;
+}
+
+.timer{
+    font-size: 32px;
+    font-weight: 700;
+    padding: 12px;
+    color: #000;
+    background-color: #ccc;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+.timer-separator{
+    float: right;
+}
+
+.button{
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+button{
+    width: 100px;
+}
+
